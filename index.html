@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Repostería Yorquiris – Pasteles perfectos que transportan a un lugar donde todo es dulzura y felicidad."
+    />
+    <title>Repostería Yorquiris</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="inicio">
+    <!-- BLOQUE 1: Header + Hero -->
+    <header class="header">
+      <div class="header__container">
+        <!-- Logo -->
+        <a href="#inicio" class="header__logo">Yorquiris</a>
+
+        <!-- Navegación -->
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#como-funciona">Categorías</a></li>
+            <li><a href="#categorias">Testimonios</a></li>
+            <li><a href="#testimonios">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <!-- Botón WhatsApp -->
+        <a
+          href="https://wa.me/8494591223"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="header__cta"
+        >
+          <img
+            src="https://cdn.simpleicons.org/whatsapp/white"
+            alt="WhatsApp"
+            class="header__cta-icon"
+          />
+          Hacer Pedido
+        </a>
+        <!-- Botón hamburguesa móvil -->
+        <button
+          class="header__menu-toggle"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1 class="hero__title">YORQUIRIS: Deleites de Dios</h1>
+        <p class="hero__subtitle">
+          Pasteles perfectos que transportan a un lugar donde<br />
+          todo es dulzura y felicidad.
+        </p>
+        <a href="#categorias" class="hero__btn">
+          Explorar Categorías &rsaquo;
+        </a>
+      </div>
+    </section>
+
+    <!-- BLOQUE 2: ¿Cómo Funciona? -->
+    <section class="how-it-works" id="como-funciona">
+      <div class="how-it-works__container">
+        <h2 class="how-it-works__title">¿Cómo Funciona?</h2>
+
+        <div class="how-it-works__grid">
+          <!-- Paso 1 -->
+          <div class="step-card">
+            <div class="step-card__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2
+                     19.79 19.79 0 0 1-8.63-3.07
+                     19.5 19.5 0 0 1-6-6
+                     19.79 19.79 0 0 1-3.07-8.67
+                     A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72
+                     12.84 12.84 0 0 0 .7 2.81
+                     2 2 0 0 1-.45 2.11L8.09 9.91
+                     a16 16 0 0 0 6 6l1.27-1.27
+                     a2 2 0 0 1 2.11-.45
+                     12.84 12.84 0 0 0 2.81.7
+                     A2 2 0 0 1 22 16.92z"
+                />
+              </svg>
+            </div>
+            <span class="step-card__number">1. Pedido</span>
+            <h3 class="step-card__heading">Contáctanos</h3>
+            <p class="step-card__text">
+              Escríbenos por WhatsApp y cuéntanos tu idea. Estamos listos para
+              escucharte y orientarte.
+            </p>
+          </div>
+
+          <!-- Paso 2 -->
+          <div class="step-card">
+            <div class="step-card__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27
+                             17 14.14 18.18 21.02
+                             12 17.77 5.82 21.02
+                             7 14.14 2 9.27
+                             8.91 8.26 12 2"
+                />
+              </svg>
+            </div>
+            <span class="step-card__number">2. Diseña</span>
+            <h3 class="step-card__heading">A tu gusto</h3>
+            <p class="step-card__text">
+              Personaliza colores, sabores y decoraciones. Cada pastel es único
+              y creado especialmente para ti.
+            </p>
+          </div>
+
+          <!-- Paso 3 -->
+          <div class="step-card">
+            <div class="step-card__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </div>
+            <span class="step-card__number">3. Retira</span>
+            <h3 class="step-card__heading">Tu momento llegó</h3>
+            <p class="step-card__text">
+              Selecciona tu fecha y hora de retiro. Tu creación estará lista,
+              fresca y perfecta para la ocasión.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BLOQUE 3: Nuestras Categorías -->
+    <section class="categories" id="categorias">
+      <div class="categories__container">
+        <div class="categories__header">
+          <h2 class="categories__title">Nuestras Categorías</h2>
+          <p class="categories__subtitle">
+            Cada ocasión merece un pastel tan especial como el momento.
+          </p>
+        </div>
+
+        <div class="categories__grid">
+          <!-- Tarjeta 1: Bodas -->
+          <div class="category-card">
+            <div class="category-card__image-wrap">
+              <img
+                src="assets/images/cat-bodas.jpg"
+                alt="Pasteles de Boda"
+                class="category-card__image"
+              />
+              <div class="category-card__overlay">
+                <a
+                  href="https://wa.me/8494591223"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="category-card__btn"
+                >
+                  Hacer Pedido
+                </a>
+              </div>
+            </div>
+            <div class="category-card__body">
+              <span class="category-card__tag">Bodas</span>
+              <h3 class="category-card__heading">Pasteles de Boda</h3>
+              <p class="category-card__text">
+                Elegancia y detalle para el día más importante de tu vida.
+                Diseños únicos que cuentan tu historia.
+              </p>
+            </div>
+          </div>
+
+          <!-- Tarjeta 2: Niños -->
+          <div class="category-card">
+            <div class="category-card__image-wrap">
+              <img
+                src="assets/images/cat-ninos.jpg"
+                alt="Pasteles para Niños"
+                class="category-card__image"
+              />
+              <div class="category-card__overlay">
+                <a
+                  href="https://wa.me/8494591223"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="category-card__btn"
+                >
+                  Hacer Pedido
+                </a>
+              </div>
+            </div>
+            <div class="category-card__body">
+              <span class="category-card__tag">Niños</span>
+              <h3 class="category-card__heading">Pasteles Infantiles</h3>
+              <p class="category-card__text">
+                Colores, personajes y mucha diversión. Hacemos realidad la
+                imaginación de los más pequeños.
+              </p>
+            </div>
+          </div>
+
+          <!-- Tarjeta 3: Cumpleaños -->
+          <div class="category-card">
+            <div class="category-card__image-wrap">
+              <img
+                src="assets/images/cat-cumpleanos.jpg"
+                alt="Pasteles de Cumpleaños"
+                class="category-card__image"
+              />
+              <div class="category-card__overlay">
+                <a
+                  href="https://wa.me/8494591223"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="category-card__btn"
+                >
+                  Hacer Pedido
+                </a>
+              </div>
+            </div>
+            <div class="category-card__body">
+              <span class="category-card__tag">Cumpleaños</span>
+              <h3 class="category-card__heading">Pasteles de Celebración</h3>
+              <p class="category-card__text">
+                Porque cada año que pasa merece celebrarse con un pastel a la
+                altura de la ocasión.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOQUE 4: Testimonios -->
+    <section class="testimonials" id="testimonios">
+      <div class="testimonials__container">
+        <div class="testimonials__header">
+          <h2 class="testimonials__title">Directamente de nuestros clientes</h2>
+          <p class="testimonials__subtitle">
+            Cada reseña es una historia dulce que nos llena de orgullo.
+          </p>
+        </div>
+
+        <div class="testimonials__grid">
+          <!-- Testimonio 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card__quote-icon">&ldquo;</div>
+            <p class="testimonial-card__text">
+              El pastel de bodas superó todas nuestras expectativas. Cada
+              detalle fue perfecto, desde la decoración hasta el sabor. Todos
+              nuestros invitados quedaron encantados.
+            </p>
+            <div class="testimonial-card__footer">
+              <div class="testimonial-card__avatar">M</div>
+              <div class="testimonial-card__info">
+                <span class="testimonial-card__name">María González</span>
+                <span class="testimonial-card__role">Novia feliz ✨</span>
+              </div>
+              <div class="testimonial-card__stars">★★★★★</div>
+            </div>
+          </div>
+
+          <!-- Testimonio 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card__quote-icon">&ldquo;</div>
+            <p class="testimonial-card__text">
+              Pedí el pastel de cumpleaños de mi hijo con su personaje favorito
+              y quedó increíble. La calidad y el sabor son únicos. ¡Ya somos
+              clientes permanentes!
+            </p>
+            <div class="testimonial-card__footer">
+              <div class="testimonial-card__avatar">C</div>
+              <div class="testimonial-card__info">
+                <span class="testimonial-card__name">Carolina Méndez</span>
+                <span class="testimonial-card__role">Mamá orgullosa 🎂</span>
+              </div>
+              <div class="testimonial-card__stars">★★★★★</div>
+            </div>
+          </div>
+
+          <!-- Testimonio 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card__quote-icon">&ldquo;</div>
+            <p class="testimonial-card__text">
+              Profesionalismo desde el primer mensaje. El proceso fue fácil,
+              rápido y el resultado fue espectacular. Sin duda el mejor servicio
+              de repostería que he probado.
+            </p>
+            <div class="testimonial-card__footer">
+              <div class="testimonial-card__avatar">R</div>
+              <div class="testimonial-card__info">
+                <span class="testimonial-card__name">Roberto Castillo</span>
+                <span class="testimonial-card__role">Cliente frecuente 🌟</span>
+              </div>
+              <div class="testimonial-card__stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- BLOQUE 5: CTA Final + Footer -->
+
+    <!-- Pre-footer CTA -->
+    <section class="cta" id="contacto">
+      <div class="cta__image-side">
+        <img
+          src="assets/images/cta-pastel.jpg"
+          alt="Pastel especial Yorquiris"
+          class="cta__image"
+        />
+      </div>
+      <div class="cta__content-side">
+        <span class="cta__tag">¿Lista tu ocasión especial?</span>
+        <h2 class="cta__title">
+          Nunca dejaremos de sorprenderte.
+          <em>Diseña a tu gusto.</em>
+        </h2>
+        <p class="cta__text">
+          Cuéntanos tu idea y la convertimos en el pastel perfecto.
+          Cada creación es única, igual que tú.
+        </p>
+        
+        <!-- CORRECCIÓN: Etiqueta <a> abierta correctamente -->
+        <a
+          href="https://wa.me/18494591223"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cta__btn"
+        >
+          Contacta con nosotros
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container">
+
+        <!-- Columna 1: Logo y descripción -->
+        <div class="footer__col">
+          <a href="#inicio" class="footer__logo">Yorquiris</a>
+          <p class="footer__description">
+            Repostería artesanal con amor y dedicación. Cada pastel es una obra de arte creada especialmente para tu momento.
+          </p>
+        </div>
+
+        <!-- Columna 2: Contacto -->
+        <div class="footer__col">
+          <h4 class="footer__heading">Contacto</h4>
+          <ul class="footer__list">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                   fill="none" stroke="currentColor"
+                   stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2
+                         19.79 19.79 0 0 1-8.63-3.07
+                         19.5 19.5 0 0 1-6-6
+                         19.79 19.79 0 0 1-3.07-8.67
+                         A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72
+                         12.84 12.84 0 0 0 .7 2.81
+                         2 2 0 0 1-.45 2.11L8.09 9.91
+                         a16 16 0 0 0 6 6l1.27-1.27
+                         a2 2 0 0 1 2.11-.45
+                         12.84 12.84 0 0 0 2.81.7
+                         A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              +1 (849) 459-1223
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                   fill="none" stroke="currentColor"
+                   stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13S3 17 3 10
+                         a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              Santiago, República Dominicana
+            </li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Redes Sociales -->
+        <div class="footer__col">
+          <h4 class="footer__heading">Síguenos</h4>
+          <div class="footer__socials">
+
+            <!-- CORRECCIÓN: Enlace de Instagram -->
+            <a href="https://www.instagram.com/reposteria_yorquiris/" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                   fill="none" stroke="currentColor"
+                   stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
+              </svg>
+              Instagram
+            </a>
+
+            <!-- CORRECCIÓN: Enlace de Facebook -->
+            <a href="https://www.facebook.com/search/top?q=reposteria%20yorquiris" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                   fill="none" stroke="currentColor"
+                   stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7
+                         a1 1 0 0 1 1-1h3z"/>
+              </svg>
+              Facebook
+            </a>
+
+            <!-- CORRECCIÓN: Enlace de WhatsApp -->
+            <a
+              href="https://wa.me/18494591223"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social-link"
+              aria-label="WhatsApp"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                   fill="none" stroke="currentColor"
+                   stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8
+                         8.5 8.5 0 0 1-7.6 4.7
+                         8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7
+                         a8.38 8.38 0 0 1-.9-3.8
+                         8.5 8.5 0 0 1 4.7-7.6
+                         8.38 8.38 0 0 1 3.8-.9h.5
+                         a8.48 8.48 0 0 1 8 8v.5z"/>
+             </svg>
+              WhatsApp
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Barra final -->
+      <div class="footer__bottom">
+        <div class="footer__bottom-container">
+          <span class="footer__legal">
+            <a href="#">Términos y Condiciones</a>
+            <span>·</span>
+            <a href="#">Política de Privacidad</a>
+          </span>
+          <span class="footer__credit">
+            Diseñado por <strong>Valeron</strong>
+          </span>
+        </div>
+      </div>
+    </footer>
+</html>
