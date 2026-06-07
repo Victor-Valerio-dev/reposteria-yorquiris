@@ -51,6 +51,8 @@ sections.forEach((section) => sectionObserver.observe(section));
 -------------------------------------------------- */
 const menuToggle = document.querySelector(".header__menu-toggle");
 const navMenu = document.querySelector(".header__nav");
+// AQUÍ ESTABA EL ERROR: Faltaba capturar los enlaces
+const navLinks = document.querySelectorAll(".header__nav-list a");
 
 if (menuToggle && navMenu) {
   menuToggle.addEventListener("click", () => {
